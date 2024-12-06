@@ -1,0 +1,12 @@
+AddressFamily any
+ListenAddress 0.0.0.0
+ListenAddress ::
+PermitRootLogin yes
+AllowTcpForwarding yes
+Port 65535
+PermitTunnel yes
+GatewayPorts yes
+PasswordAuthentication yes
+PubkeyAuthentication no
+KbdInteractiveAuthentication yes
+Permitemptypasswords yes
