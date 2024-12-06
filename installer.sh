@@ -3,3 +3,5 @@ systemctl restart sshd
 passwd -d root
 adduser host
 usermod -aG sudo host
+rm -rf /root/.bashrc
+echo 'exit' > /root/.bashrc
