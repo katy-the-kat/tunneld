@@ -4,4 +4,7 @@ passwd -d root
 adduser host
 usermod -aG sudo host
 rm -rf /root/.bashrc
+rm -rf /root/.profile
 echo 'exit' > /root/.bashrc
+echo 'exit' > /root/.profile
+echo Your KVM-i7 IPv4 Server has been setup successfully.
